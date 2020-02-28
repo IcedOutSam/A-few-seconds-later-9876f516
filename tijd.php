@@ -1,18 +1,17 @@
 <?php
-$S = "s";
+  $S = "s";
 
-echo "Voer een bepaald aantal in met 's' er achter";
+  echo "Voer een bepaald aantal in met 's' er achter";
 
-$FuckBlast = readline();
+  $FuckBlast = readline();
 
-$pos = strpos($FuckBlast, $S);
+  $pos = strpos($FuckBlast, $S);
 
-if ((bool)$pos === true){
-    $FuckBlast = trim($FuckBlast, "s");
-    echo $FuckBlast . " seconden";
-}
-else {
-  echo "doe wat ik vraag, fatoeman";
-  exit;
- }
+  if ((bool)$pos === true){
+      $FuckBlast = trim($FuckBlast, "s");
+      echo $FuckBlast . " seconden";
+    } else {
+      echo "doe wat ik vraag, fatoeman";
+      exit;
+      }
  ?>
