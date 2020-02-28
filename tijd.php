@@ -3,14 +3,16 @@ $S = "s";
 
 echo "Voer een bepaald aantal in met 's' er achter";
 
-$leeslijn = readline();
+$FuckBlast = readline();
 
-$pos = strpos($leeslijn, $S);
+$pos = strpos($FuckBlast, $S);
 
 if ((bool)$pos === true){
-  $leeslijn = trim($leeslijn, "s");
-  echo $leeslijn . " seconden";
- } else {
+    $FuckBlast = trim($FuckBlast, "s");
+    echo $FuckBlast . " seconden";
+    }
+
+else{
   echo "doe wat ik vraag, fatoeman";
   exit;
  }
