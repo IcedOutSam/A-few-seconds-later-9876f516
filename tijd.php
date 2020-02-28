@@ -10,8 +10,10 @@
 if ((bool)$pos === true) {
       $FuckBlast = trim($FuckBlast, "s");
       echo $FuckBlast . " seconden";
-} else {
+}
+
+else {
       echo "doe wat ik vraag, fatoeman";
       exit;
-      }
+}
 ?>
